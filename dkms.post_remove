@@ -1,0 +1,16 @@
+#!/bin/bash
+
+remove_dt_overlay()
+{
+    local overlay=$1
+    source /etc/default/rpi-eeprom-update
+    local overlays_dir="${BOOTFS:-/boot}/overlays"
+
+    echo "${overlay}:"
+    echo " - Uninstallation"
+    echo "   - Deleting from: ${overlays_dir}/"
+    rm -f ${overlays_dir}/${overlay}
+}
+
+remove_dt_overlay "arducam.dtbo"
+echo ""

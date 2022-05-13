@@ -1,0 +1,15 @@
+# created mod files
+*.o
+*.ko
+*.mod*
+*.cmd
+*.tmp
+*.dtbo
+Module.symvers
+modules.order
+
+# build dir
+build/
+
+# debhelper
+debian/.debhelper

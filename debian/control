@@ -1,0 +1,8 @@
+Source: arducam-dkms
+Maintainer: Richard Osterloh <r.osterloh@gardin.co.uk>
+Build-Depends: debhelper (>= 9), dkms
+
+Package: arducam-dkms
+Architecture: all
+Depends: ${misc:Depends}
+Description: DKMS source for the Arducam PiVariety cameras
