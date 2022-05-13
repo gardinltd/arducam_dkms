@@ -4,5 +4,5 @@ Build-Depends: debhelper (>= 9), dkms
 
 Package: arducam-dkms
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends} raspberrypi-kernel-headers
 Description: DKMS source for the Arducam PiVariety cameras

@@ -7,7 +7,7 @@ kernel module and device tree overlay to add support for the Arducam Pivariety V
 ## Usage
 1. Install dkms if you haven't already:
 ```
-sudo apt install dkms
+sudo apt install dkms raspberrypi-kernel-headers --no-install-recommends
 ```
 2. Download the latest source .tar.gz from the [releases](https://github.com/gardinltd/arducam_dkms/releases/) page
 3. Untar it to `/usr/src/arducam-<version>` and run the dkms install:
@@ -32,7 +32,7 @@ arducam
 ## Install from git
 1. Install dkms if you haven't already:
 ```
-sudo apt install dkms
+sudo apt install dkms raspberrypi-kernel-headers --no-install-recommends
 ```
 2. Clone the repo
 ```
